@@ -1,0 +1,27 @@
+.web-realization-ideas{
+    background-color: #fbfaf8;
+    .web-theme-title{
+        padding: 80px 0 30px;
+        max-width: 70%;
+        margin: 0 auto;
+        h3{
+            font-size: 30px;
+            color: #555555;
+            font-weight: 600;
+        }
+        p{
+            font-size: 16px;
+            color: #8c8c8c;
+            font-weight: 300;
+            font-family: $font-montserrat;
+            margin-bottom: 0;
+        }
+    }
+    .web-theme-img{
+        img{
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

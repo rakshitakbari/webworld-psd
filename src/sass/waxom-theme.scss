@@ -1,0 +1,28 @@
+.web-theme-block{
+    background-color: #3a2921;
+    padding: 20px 0;
+    .web-theme-text-btn{
+        display: flex;
+        justify-content: space-between;
+        .web-theme-text{
+            h3{
+                font-size: 28px;
+                color: $white;
+                font-weight: normal;
+                margin-bottom: 0;
+                span{
+                    color: $color-theme;
+                }
+            }
+            p{
+                font-size: 18px;
+                color: #615855;
+                font-weight: 300;
+                font-family: $font-montserrat;
+            }
+        }
+        .web-btn{
+            margin-top: 20px;
+        }
+    }
+}  

@@ -1,0 +1,41 @@
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.web-btn{
+    margin: 0px 0 30px;
+    button{
+        font-size: 14px;
+        font-weight: 800;
+        color: $white;
+        background-color: #988574;
+        text-transform: uppercase;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 3px 0px 0px #726257;
+        -moz-box-shadow: 0 3px 0px 0px #726257;
+                box-shadow: 0 3px 0px 0px #726257;
+                &:hover{
+                    color: $white;
+                }
+    }
+}
+
+.web-theme-title{
+    padding: 80px 0 30px;
+    max-width: 70%;
+    margin: 0 auto;
+    h3{
+        font-size: 30px;
+        color: #555555;
+        font-weight: 600;
+    }
+    p{
+        font-size: 16px;
+        color: #8c8c8c;
+        font-weight: 300;
+        font-family: $font-montserrat;
+        margin-bottom: 0;
+    }
+}

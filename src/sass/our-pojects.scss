@@ -1,0 +1,116 @@
+.our-latest-projects {
+  position: relative;
+  .web-theme-btn-all {
+    margin: 0 auto;
+    text-align: center;
+    button {
+      border: 1px solid #ebebeb;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 300;
+      color: #8c8c8c;
+      font-family: $font-montserrat;
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        background-color: #998575;
+        color: $white;
+        font-weight: 300;
+      }
+    }
+    .active {
+      background-color: #998575;
+      color: $white;
+      font-weight: 300;
+    }
+  }
+  .web-project-theme-space{
+    margin: 40px 0 0px;
+    .web-project-block {   
+        .web-project-img{
+            position: relative;
+        } 
+        .web-project-content {
+        background-color: #fbfaf8;
+        padding: 30px;
+        position: relative;
+        transition: .5s;
+        &::before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            border-bottom: 16px solid #fbfaf8;
+            position: absolute;
+            top: -16px;
+            left: 20px;
+            right: 0;
+            bottom: 0;
+        }
+        h6 {
+            font-size: 20px;
+            color: #c7b299;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 14px;
+            color: #d1d1d1;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+        }
+        &:hover{
+            .web-project-img{
+                &::before{
+                    content: '\f0c1';
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+                &:after{
+                    content: '\f002';
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+            .web-project-content{
+            &:hover {
+                    background-color: #352f2d;
+                    transition: .5s;
+                    &::before {
+                    border-bottom: 16px solid #352f2d;
+                    }
+                    h6 {
+                    color: $white;
+                    }
+                    p {
+                    color: $color-theme;
+                    }
+                } 
+            }
+        }
+    }
+  }
+  .web-btn{
+      margin: 40px auto 80px;
+      button{
+          padding: 10px 40px;
+      }
+  }
+}
